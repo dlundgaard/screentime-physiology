@@ -1,0 +1,27 @@
+[project]
+name = "screentime-physiology"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = [
+    "arviz>=1.1.0",
+    "matplotlib>=3.10.9",
+    "mermaid-py>=0.8.4",
+    "numpy>=2.4.6",
+    "polars>=1.40.1",
+    "pymc>=6.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipython==9.9.0",
+    "ipykernel==7.1.0",
+    "ipywidgets==8.1.8",
+    "watermark==2.6.0",
+    "mypy==1.19.1",
+    "ruff==0.14.11",
+]
+
+[tool.ruff]
+line-length = 150
+target-version = "py312"

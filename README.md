@@ -2,8 +2,7 @@
 
 ## Dependencies
 
-System dependencies: `Python 3.12+` and [`uv`](https://github.com/astral-sh/uv)
-Python package dependencies: [`pyproject.toml`](pyproject.toml)
+`Python 3.12+` and [`uv`](https://github.com/astral-sh/uv)
 
 ## Steps to reproduce
 

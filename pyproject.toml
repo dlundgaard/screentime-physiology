@@ -2,14 +2,15 @@
 name = "screentime-physiology"
 version = "0.0.1"
 readme = "README.md"
-requires-python = ">=3.12.10"
+requires-python = "==3.12.10"
 dependencies = [
-    "arviz>=1.1.0",
-    "matplotlib>=3.10.9",
-    "mermaid-py>=0.8.4",
-    "numpy>=2.4.6",
-    "polars>=1.40.1",
-    "pymc>=6.0.1",
+    "arviz==0.23.4",
+    "matplotlib==3.10.9",
+    "mermaid-py==0.8.4",
+    "numpy==2.3.5",
+    "polars==1.40.1",
+    "pyarrow==24.0.0",
+    "pymc==5.28.3",
 ]
 
 [dependency-groups]

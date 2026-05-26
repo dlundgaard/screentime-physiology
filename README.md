@@ -8,4 +8,4 @@ This is a companion repository hosting the source code of the analysis conducted
 
 ## Steps to reproduce
 
-All [package dependencies](pyproject.toml) for this project may be installed by running `uv sync` in the project's root directory. This will set up a Python v3.12.10 virtual environment capable of replicating the [analysis](screen_time_physiology.ipynb).
+All [package dependencies](pyproject.toml) for this project may be installed by running `uv sync` in the project's root directory. This will set up a Python v3.12.10 virtual environment capable of replicating the [analysis](analysis.ipynb).
